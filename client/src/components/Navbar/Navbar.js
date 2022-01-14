@@ -17,7 +17,7 @@ export const Navbar = () => {
     const location = useLocation();
 
     const logout = (path) => {
-        dispatch({ type: 'LOGOUT ' });
+        dispatch({ type: 'LOGOUT' });
 
         history(path);
         setUser(null);
